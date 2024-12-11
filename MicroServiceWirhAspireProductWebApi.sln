@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServiceWirhAspireProdu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServiceWirhAspireCategoryWebApi", "MicroServiceWirhAspireCategoryWebApi\MicroServiceWirhAspireCategoryWebApi.csproj", "{AB12C0A2-5787-47DB-8500-B076BFD3B34C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServiceWirhAspireGatewayWebApi", "MicroServiceWirhAspireGatewayWebApi\MicroServiceWirhAspireGatewayWebApi.csproj", "{98895685-B4D4-4325-9F64-E7F811DB7CF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AB12C0A2-5787-47DB-8500-B076BFD3B34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB12C0A2-5787-47DB-8500-B076BFD3B34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB12C0A2-5787-47DB-8500-B076BFD3B34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98895685-B4D4-4325-9F64-E7F811DB7CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98895685-B4D4-4325-9F64-E7F811DB7CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98895685-B4D4-4325-9F64-E7F811DB7CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98895685-B4D4-4325-9F64-E7F811DB7CF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
