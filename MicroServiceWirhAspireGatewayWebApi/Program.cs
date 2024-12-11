@@ -1,4 +1,6 @@
 
+using Microsoft.Extensions.Hosting;
+
 namespace MicroServiceWirhAspireGatewayWebApi
 {
     public class Program
@@ -8,7 +10,7 @@ namespace MicroServiceWirhAspireGatewayWebApi
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            builder.AddServiceDefaults();
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
@@ -20,7 +22,7 @@ namespace MicroServiceWirhAspireGatewayWebApi
             {
                 app.MapOpenApi();
             }
-
+            app.MapDefaultEndpoints();
             app.UseHttpsRedirection();
 
             app.UseAuthorization();

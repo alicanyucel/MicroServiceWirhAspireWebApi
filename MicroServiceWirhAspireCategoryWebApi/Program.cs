@@ -1,14 +1,17 @@
 
+using Microsoft.Extensions.Hosting;
+
 namespace MicroServiceWirhAspireCategoryWebApi
 {
     public class Program
     {
         public static void Main(string[] args)
         {
+            
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            builder.AddServiceDefaults();
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
@@ -25,7 +28,7 @@ namespace MicroServiceWirhAspireCategoryWebApi
 
             app.UseAuthorization();
 
-
+            app.MapDefaultEndpoints();
             app.MapControllers();
 
             app.Run();
